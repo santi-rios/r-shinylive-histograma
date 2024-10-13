@@ -1,22 +1,23 @@
 project:
+  title: "r-shinylive-histograma"
   type: website
   output-dir: _site
   resources: 
   - shinylive-sw.js
 
 website:  
-  repo-url: https://github.com/coatless-quarto/r-shinylive-demo
+  repo-url: https://github.com/santi-rios/r-shinylive-histograma
   repo-actions: [edit, issue]
-  title: "r-shinylive in Quarto"
+  title: "r-shinylive histograma"
   navbar:
     search: false
     left:
-      - text: "Tutorial (Home)"
+      - text: "Aplicación"
         file: index.qmd
-      - text: "Joe's Shiny App"
-        file: R-shinylive-demo.qmd
-      - text: "Skeletal Template"
-        file: template-r-shinylive.qmd
+      # - text: "Joe's Shiny App"
+      #   file: R-shinylive-demo.qmd
+      # - text: "Skeletal Template"
+      #   file: template-r-shinylive.qmd
 
 format:
   html:
